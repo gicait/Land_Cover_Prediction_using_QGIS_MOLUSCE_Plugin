@@ -6,6 +6,7 @@
 
 Download QGIS setup file for windows from this website. The MOLUSCE plugin is
     supported only in QGIS version 2. Thus, QGIS version 2.18.0 is recommended.
+  
   <img width="408" alt="image" src="https://github.com/user-attachments/assets/3cc2c7ff-0e69-4d24-bb1d-9482a9f61b05" />
 
 
@@ -45,6 +46,7 @@ was projected using Reproject Layer tool.
 
 - Find the UTM zone using this link1 or link
 - Find and open the “Reproject Layer” tool from processing toolbox
+  
   <img width="155" alt="image" src="https://github.com/user-attachments/assets/8a1cc659-5cb7-4ed2-94f9-0ec638d1c8c6" />
 
 - Select the layer you want to reproject as an **Input layer**. Find and set Target
@@ -84,8 +86,10 @@ The annual land cover and land use maps of years 2000, 2005, 2010, 2015 and
 - First select the grid, where the area of interest falls. Since Ben Cat district lies in 20N 100E grid, the grid was selected.
 - After the grid selection, the data download links will be listed below.
 - Click the links to download the data for respective years.
-    <img width="416" alt="image" src="https://github.com/user-attachments/assets/928f8325-1089-4f84-8ca4-04f460f52b89" />
-    <img width="416" alt="image" src="https://github.com/user-attachments/assets/e42b2b00-cf37-486e-bf1d-ae9f28b18c31" />
+  
+<img width="416" alt="image" src="https://github.com/user-attachments/assets/928f8325-1089-4f84-8ca4-04f460f52b89" />
+    
+<img width="416" alt="image" src="https://github.com/user-attachments/assets/e42b2b00-cf37-486e-bf1d-ae9f28b18c31" />
 
 
 c. Import downloaded data into QGIS, you will see the gradient legend in layer panel.
@@ -119,8 +123,9 @@ e. For the reclassification in QGIS, open **_Reclassify values (simple)_** tool.
 - Define lookup table as shown in figure below
 - Run the reclassification tool.
   
-    <img width="268" alt="image" src="https://github.com/user-attachments/assets/f4e567a5-60a8-491e-a069-6d2604bf12a0" />
-    <img width="413" alt="image" src="https://github.com/user-attachments/assets/23235044-b83c-4855-a7ec-c56f670fbed6" />
+<img width="268" alt="image" src="https://github.com/user-attachments/assets/f4e567a5-60a8-491e-a069-6d2604bf12a0" />
+
+<img width="413" alt="image" src="https://github.com/user-attachments/assets/23235044-b83c-4855-a7ec-c56f670fbed6" />
 
 
 f. To work in projected coordinate system, open the Warp (reproject) tool to project
@@ -151,9 +156,9 @@ the dataset
 
 g. Finally, clip the raster layer within the study area administrative boundary.
 
-    <img width="269" alt="image" src="https://github.com/user-attachments/assets/e13330ee-c81f-45be-bd03-a347c261cf36" />
+<img width="269" alt="image" src="https://github.com/user-attachments/assets/e13330ee-c81f-45be-bd03-a347c261cf36" />
 
-    <img width="400" alt="image" src="https://github.com/user-attachments/assets/bc8d7311-417c-4cf3-82b9-eb1b84791ef1" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/bc8d7311-417c-4cf3-82b9-eb1b84791ef1" />
 
 - Select the reprojected land cover layer as an input layer
 - Select study area admin as a mask layer layer (Ben Cat District boundary data
@@ -185,6 +190,7 @@ a) Digital Elevation Model and Hillshade
     Select the bilinear convolution as a resampling method. [refer to 4.1 (f)]
 - Finally, clip the layer within the study area administrative boundary [refer to 4.
     (g)]
+
 b) Population density
 - Clip the tentative study area using **_Clipper_** tool available in extraction option
 of Raster menu [refer to 4.1 (d)]
@@ -193,6 +199,7 @@ preferred spatial resolution which should be same as the land cover dataset.
 Select the cubic convolution as a resampling method. [refer to 4.1 (f)]
 - Finally, clip the raster layer within the study area administrative boundary [refer
 to 4.1 (g)]
+
 c) Slope
 Slope data is derived from the digital elevation dataset. Use the projected digital
 elevation data.
