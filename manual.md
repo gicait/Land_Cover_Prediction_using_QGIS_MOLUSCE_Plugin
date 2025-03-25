@@ -21,11 +21,11 @@ Open QGIS application and create new empty project. In the menu bar, click the
 Search plugin by writing MOLUSCE keyword in search bar. Then, select MOLUSCE
     and click **_Install plugin_** button to install the plugin.
 
-<img width="401" alt="image" src="https://github.com/user-attachments/assets/093074c3-7cae-4aff-a9c8-7c209951c0be" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/093074c3-7cae-4aff-a9c8-7c209951c0be" />
 
 After the successful installation of plugin, you would be able to see the **_MOLUSCE_** option listed in the Raster menu.
 
-<img width="415" alt="image" src="https://github.com/user-attachments/assets/b181315d-eab4-45d1-9914-5880bbdc5695" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/b181315d-eab4-45d1-9914-5880bbdc5695" />
 
 ## 3. Study Area Selection
 a. First of all, select the area where you would like to carry out case study. The extent
@@ -47,13 +47,13 @@ was projected using Reproject Layer tool.
 - Find the UTM zone using this link1 or link
 - Find and open the “Reproject Layer” tool from processing toolbox
   
-  <img width="155" alt="image" src="https://github.com/user-attachments/assets/8a1cc659-5cb7-4ed2-94f9-0ec638d1c8c6" />
+  <img width="225" alt="image" src="https://github.com/user-attachments/assets/8a1cc659-5cb7-4ed2-94f9-0ec638d1c8c6" />
 
 - Select the layer you want to reproject as an **Input layer**. Find and set Target
     CRS as per the required (WGS84/ UTM ZONE 48N in this case study)
 
-    <img width="244" alt="image" src="https://github.com/user-attachments/assets/2becd7b4-3457-4d5b-aae4-91f053f69915" />
-    <img width="131" alt="image" src="https://github.com/user-attachments/assets/f06d750e-2d4b-4a76-8ece-6c0b0f63932f" />
+    <img width="450" alt="image" src="https://github.com/user-attachments/assets/2becd7b4-3457-4d5b-aae4-91f053f69915" />
+    <img width="200" alt="image" src="https://github.com/user-attachments/assets/f06d750e-2d4b-4a76-8ece-6c0b0f63932f" />
 
 - Run and save the reprojected layer
 
@@ -87,9 +87,9 @@ The annual land cover and land use maps of years 2000, 2005, 2010, 2015 and
 - After the grid selection, the data download links will be listed below.
 - Click the links to download the data for respective years.
   
-<img width="416" alt="image" src="https://github.com/user-attachments/assets/928f8325-1089-4f84-8ca4-04f460f52b89" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/928f8325-1089-4f84-8ca4-04f460f52b89" />
     
-<img width="416" alt="image" src="https://github.com/user-attachments/assets/e42b2b00-cf37-486e-bf1d-ae9f28b18c31" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/e42b2b00-cf37-486e-bf1d-ae9f28b18c31" />
 
 
 c. Import downloaded data into QGIS, you will see the gradient legend in layer panel.
@@ -107,13 +107,13 @@ In this case study, land cover classes were reclassified as follows:
 Since snow/ice and ocean land cover are not in the study area, they are not
 mentioned in above reclassification table.
 
-<img width="416" alt="image" src="https://github.com/user-attachments/assets/b0e7925f-c5e0-42ea-92ec-844d1cf75560" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/b0e7925f-c5e0-42ea-92ec-844d1cf75560" />
 
 
 d. First clip the tentative study area using Clipper tool available in extraction option
 of Raster menu.
 
-<img width="396" alt="image" src="https://github.com/user-attachments/assets/6328c35f-39bc-4e9c-b2e4-ccede515ee51" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/6328c35f-39bc-4e9c-b2e4-ccede515ee51" />
 
 
 e. For the reclassification in QGIS, open **_Reclassify values (simple)_** tool.
@@ -123,9 +123,9 @@ e. For the reclassification in QGIS, open **_Reclassify values (simple)_** tool.
 - Define lookup table as shown in figure below
 - Run the reclassification tool.
   
-<img width="268" alt="image" src="https://github.com/user-attachments/assets/f4e567a5-60a8-491e-a069-6d2604bf12a0" />
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/f4e567a5-60a8-491e-a069-6d2604bf12a0" />
 
-<img width="413" alt="image" src="https://github.com/user-attachments/assets/23235044-b83c-4855-a7ec-c56f670fbed6" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/23235044-b83c-4855-a7ec-c56f670fbed6" />
 
 
 f. To work in projected coordinate system, open the Warp (reproject) tool to project
@@ -133,7 +133,7 @@ the dataset
 
 - Find the UTM zone using this [link1](https://www.apsalin.com/utm-zone-finder/) or [link2](https://www.apsalin.com/utm-zone-finder/).
 
-  <img width="267" alt="image" src="https://github.com/user-attachments/assets/259255ab-2c6b-4c74-82ed-54601897b961" />
+  <img width="350" alt="image" src="https://github.com/user-attachments/assets/259255ab-2c6b-4c74-82ed-54601897b961" />
 
 - Select the layer you want to reproject as an input layer.
 - Select the destination CRS as required (WGS UTM zone 48N in this case
@@ -150,15 +150,15 @@ the dataset
 
 - Run the tool
   
-    <img width="274" alt="image" src="https://github.com/user-attachments/assets/c5da488d-a2fa-4b98-85c3-31484fb00f81" />
-    <img width="156" alt="image" src="https://github.com/user-attachments/assets/fbaa59ae-edb1-46e1-b21c-99986ca8d144" />
+    <img width="400" alt="image" src="https://github.com/user-attachments/assets/c5da488d-a2fa-4b98-85c3-31484fb00f81" />
+    <img width="300" alt="image" src="https://github.com/user-attachments/assets/fbaa59ae-edb1-46e1-b21c-99986ca8d144" />
 
 
 g. Finally, clip the raster layer within the study area administrative boundary.
 
-<img width="269" alt="image" src="https://github.com/user-attachments/assets/e13330ee-c81f-45be-bd03-a347c261cf36" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/e13330ee-c81f-45be-bd03-a347c261cf36" />
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/bc8d7311-417c-4cf3-82b9-eb1b84791ef1" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/bc8d7311-417c-4cf3-82b9-eb1b84791ef1" />
 
 - Select the reprojected land cover layer as an input layer
 - Select study area admin as a mask layer layer (Ben Cat District boundary data
@@ -205,11 +205,11 @@ Slope data is derived from the digital elevation dataset. Use the projected digi
 elevation data.
 - Open GDAL based slope analysis tool.
   
-    <img width="316" alt="image" src="https://github.com/user-attachments/assets/ee9fe100-4b96-4846-b6a3-af7f6fdf8117" />
+    <img width="500" alt="image" src="https://github.com/user-attachments/assets/ee9fe100-4b96-4846-b6a3-af7f6fdf8117" />
 
 - Check the Slope expressed as percent (instead of degrees) option
 
-  <img width="372" alt="image" src="https://github.com/user-attachments/assets/7765f30d-91bd-460f-b0df-672f8bc7af43" />
+  <img width="600" alt="image" src="https://github.com/user-attachments/assets/7765f30d-91bd-460f-b0df-672f8bc7af43" />
 - Run the tool
 - Finally, clip the slope layer within the study area administrative boundary [refer
     to 4.1 (g)]
@@ -229,23 +229,23 @@ Click the Select extent on canvas option and draw tentative extent.
 
 - Open the attribute table window, toggle on the editing mode, add new field (Eg:‘id’ in this case) and populate the field with value 0.
 
-    <img width="399" alt="image" src="https://github.com/user-attachments/assets/7816c4ea-cba5-456a-88d4-74991ab68135" />
+    <img width="600" alt="image" src="https://github.com/user-attachments/assets/7816c4ea-cba5-456a-88d4-74991ab68135" />
 
 - Using the **Rasterize (vector to raster)** tool, the river and road datasets were converted into raster datasets.
 
-    <img width="332" alt="image" src="https://github.com/user-attachments/assets/d565409d-8a67-4c18-849a-422ceef6e60b" />
+    <img width="500" alt="image" src="https://github.com/user-attachments/assets/d565409d-8a67-4c18-849a-422ceef6e60b" />
 
 - Select the newly created field (‘id’ in this case) as an **Attribute field**. Set output resolution as per required (25*25 in this case). Define **Nodata value** in advanced parameters as -9999. Run the tool and save the rasterized dataset.
 
-    <img width="403" alt="image" src="https://github.com/user-attachments/assets/0e57e798-3815-411e-95e2-b934ec53e8c5" />
+    <img width="700" alt="image" src="https://github.com/user-attachments/assets/0e57e798-3815-411e-95e2-b934ec53e8c5" />
 
 - Use raster tool named “ Proximity raster” to generate the distance from the road/river layer.
 
-    <img width="252" alt="image" src="https://github.com/user-attachments/assets/47dd06b8-262d-4a6f-a877-e4e93cbbc71c" />
+    <img width="450" alt="image" src="https://github.com/user-attachments/assets/47dd06b8-262d-4a6f-a877-e4e93cbbc71c" />
 
 - Select the rasterized layer generated from previous layer, run the tool and save the result.
 
-    <img width="355" alt="image" src="https://github.com/user-attachments/assets/0ffd3674-4a3a-49c0-a49e-d484a6b3ca56" />
+    <img width="600" alt="image" src="https://github.com/user-attachments/assets/0ffd3674-4a3a-49c0-a49e-d484a6b3ca56" />
 
 - Finally, clip the raster layer within the study area administrative boundary [refer
     to 4.1 (g)]
@@ -267,7 +267,7 @@ All the layers which have been added in QGIS project are listed in left panel in
 
 - If the geometries of raster’s do not match, error message will be displayed. Then, correct the dataset and try again.
 
-    <img width="423" alt="image" src="https://github.com/user-attachments/assets/7b858afc-143c-40ad-be07-09bb20ba14cd" />
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/7b858afc-143c-40ad-be07-09bb20ba14cd" />
 
 ### 5.2 Step 2: Evaluating Correlation
 
@@ -288,7 +288,7 @@ suggests a strong linear relationship between them. In such cases, one of the dr
 be neglected to avoid multicollinearity implications such as redundancy, overfitting, and
 diciculty in training the models.
 
-<img width="414" alt="image" src="https://github.com/user-attachments/assets/2baba8c1-05b6-4e33-af29-9906286113ed" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/2baba8c1-05b6-4e33-af29-9906286113ed" />
 
 
 ### 5.3 Step 3: Area Changes
@@ -297,7 +297,7 @@ diciculty in training the models.
 
 - Generate and save the land use/cover change map by clicking the **Create_changes map_** button.
 
-    <img width="414" alt="image" src="https://github.com/user-attachments/assets/13182a58-6ef9-4a4f-98ab-3b21c2c5c31b" />
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/13182a58-6ef9-4a4f-98ab-3b21c2c5c31b" />
 
 
 ### 5.4 Step 4: Transition Potential Modeling
@@ -341,13 +341,13 @@ graph into the designated folder.
 
 In this case sudy, decrease in both training and validation loss to a point of stability with a minimal gap between the two final loss values can be witnessed in the learning curve which represents the well fitted model for this case study.
 
-<img width="463" alt="image" src="https://github.com/user-attachments/assets/83065fbf-361d-4836-83c5-35042d20667a" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/83065fbf-361d-4836-83c5-35042d20667a" />
 
 ### 5.5 Step 5: Cellular Automata Simulation
 
 This is the second last step. The main task that needs to be carried out is to save the file path for prefix of transition potential maps, certainty function, and simulation results as shown in below Figure. In step 1, the year dicerence between initial (2000) and final (2010) land cover map is 10. Thus, Number of simulation iterations defined as 1 in this step will simulates the land cover map of year 2020.
 
-<img width="455" alt="image" src="https://github.com/user-attachments/assets/c3692784-cbb4-445d-9735-a217d1442336" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/c3692784-cbb4-445d-9735-a217d1442336" />
 
 
 ### 5.6 Step 6: Validation
@@ -362,22 +362,18 @@ import the simulated map, adopt similar process using the browsing tool.
 
 - The number of validation iterations should be imported based on the results obtained on
 the % of correctness, kappa (overall), kappa (histo), and kappa (loc). If these values are satisfying (i.e. >0.6) the simulated map can be accepted else hit and trials method should be adopted by changing the parameters used in the transition potential modelling step.
-    <img width="469" alt="image" src="https://github.com/user-attachments/assets/f60ec979-e28e-4b94-a661-369c2b695e53" />
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/f60ec979-e28e-4b94-a661-369c2b695e53" />
 
 
 ### 5.7 Step 7: Prediction
 Once acceptable kappa statistics are obtained in previous step, inputs need to be given to predict the future land cover map. As shown in the figure all the land cover maps and driving are given as input. The below figure shows the input for this case study. Land cover map of year 2010 and 2020 are set as initial and final respectively to predict the land cover for year 2030 and so on.
   
-<img width="419" alt="image" src="https://github.com/user-attachments/assets/a0a9f19c-86b5-4d51-a285-8f203a1354f1" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/a0a9f19c-86b5-4d51-a285-8f203a1354f1" />
 
-- Once the inputs are defined, proceed directly to step 5 (Cellular Automata
-    Simulation). The number of simulation iterations must be entered in a specific
-    way. In this case study, with an initial year of 2010 and a final year of 2020, setting the number of simulation iterations to 1 will predict outcomes for 2030, 2 will
-    predict for 2040, 3 for 2050, and so forth. Therefore, each iteration represents one
-    interval between the initial and final years.
+Once the inputs are defined, proceed directly to step 5 (Cellular Automata Simulation). The number of simulation iterations must be entered in a specific way. In this case study, with an initial year of 2010 and a final year of 2020, setting the number of simulation iterations to 1 will predict outcomes for 2030, 2 will predict for 2040, 3 for 2050, and so forth. Therefore, each iteration represents one interval between the initial and final years.
 
-    <img width="434" alt="image" src="https://github.com/user-attachments/assets/ffafc086-f0a3-4c03-9ced-6dc68f53065f" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/ffafc086-f0a3-4c03-9ced-6dc68f53065f" />
 
-- Simulate and save the predicted land cover map
+Simulate and save the predicted land cover map
 
 
