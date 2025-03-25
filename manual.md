@@ -1,5 +1,5 @@
 
-**A Manual on Prediction of Future Land Cover Changes using QGIS MOLUSCE Plugin**
+# Manual on Prediction of Future Land Cover Changes using QGIS MOLUSCE Plugin**
 
 
 ## 1. QGIS Installation
@@ -373,12 +373,4 @@ Once acceptable kappa statistics are obtained in previous step, inputs need to b
 
 - Simulate and save the predicted land cover map
 
-This is a offline tool, your data stays locally and is not send to any server!
-Feedback & Bug Reports
 
-
-**PREPARED BY:**
-
-Asian Institute of Technology,
-
-Pathum Thani, Thailand, 2024
