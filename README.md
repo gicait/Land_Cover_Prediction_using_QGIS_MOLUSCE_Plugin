@@ -1,1 +1,1 @@
-# Land_Cover_Prediction_using_QGIS_MOLUSCE_Plugin
+# Land Cover Prediction using QGIS MOLUSCE Plugin
