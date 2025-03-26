@@ -10,9 +10,9 @@
 
 [4. Dataset Preparation](#4-dataset-preparation)
 
-[4.1 Land Cover Dataset](#4.1-land-cover-dataset)
+[4.1 Land Cover Dataset](#41-land-cover-dataset)
 
-[4.2 Driving Factors](#4.2-driving-factors)
+[4.2 Driving Factors](#42-driving-factors)
 
 [5. Steps in QGIS MOLUSCE Plugin](#5-steps-in-qgis-molusce-plugin)
 
