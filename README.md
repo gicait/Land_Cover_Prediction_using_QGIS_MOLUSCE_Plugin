@@ -1,4 +1,4 @@
-# Land Cover Prediction using QGIS MOLUSCE Plugin: : A Case Study of Bến Cát District, Vietnam, and a Step-by-Step Implementation Guide
+# Land Cover Prediction using QGIS MOLUSCE Plugin: A Case Study of Bến Cát District, Vietnam, and a Step-by-Step Implementation Guide
 
 **Case_Study_Report.pdf** provides detailed insights into land cover change trends in Bến Cát District in Vietnam.
 
