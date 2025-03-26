@@ -2,7 +2,7 @@
 # Manual on Prediction of Future Land Cover Changes using QGIS MOLUSCE Plugin**
 
 ## Table of Contents
-[1. QGIS Installation](#1-qgis-nstallation)
+[1. QGIS Installation](#1-qgis-installation)
 
 [2. MOLUSCE Plugin Installation](#2-molusce-plugin-installation)
 
@@ -10,15 +10,15 @@
 
 [4. Dataset Preparation](#4-dataset-preparation)
 
-[4.1 Land Cover Dataset](#.1-land-cover-dataset)
+[4.1 Land Cover Dataset](#4.1-land-cover-dataset)
 
 [4.2 Driving Factors](#4.2-driving-factors)
 
-[5. Steps in QGIS MOLUSCE Plugin](#5.-steps-in-qgis-molusce-plugin)
+[5. Steps in QGIS MOLUSCE Plugin](#5-steps-in-qgis-molusce-plugin)
 
-[5.1 Step 1: Inputs](#5.1-step-1-inputs)
+[5.1 Step 1: Inputs](#5-1-step-1-inputs)
 
-[5.2 Step 2: Evaluating Correlation](#5.2-step-2-Evaluating-Correlation)
+[5.2 Step 2: Evaluating Correlation](#5-2-step-2-Evaluating-Correlation)
 
 [5.3 Step 3: Area Changes](#5.3-step-3-area-changes)
 
