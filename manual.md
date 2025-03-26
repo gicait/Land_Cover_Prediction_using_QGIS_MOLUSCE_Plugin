@@ -10,25 +10,25 @@
 
 [4. Dataset Preparation](#4-dataset-preparation)
 
-    [4.1 Land Cover Dataset](#41-land-cover-dataset)
+&emsp;[4.1 Land Cover Dataset](#41-land-cover-dataset)
 
-    [4.2 Driving Factors](#42-driving-factors)
+&emsp;[4.2 Driving Factors](#42-driving-factors)
 
 [5. Steps in QGIS MOLUSCE Plugin](#5-steps-in-qgis-molusce-plugin)
 
-    [5.1 Step 1: Inputs](#51-step-1-inputs)
+&emsp;[5.1 Step 1: Inputs](#51-step-1-inputs)
 
-    [5.2 Step 2: Evaluating Correlation](#52-step-2-Evaluating-Correlation)
+&emsp;[5.2 Step 2: Evaluating Correlation](#52-step-2-evaluating-correlation)
 
-    [5.3 Step 3: Area Changes](#53-step-3-area-changes)
+&emsp;[5.3 Step 3: Area Changes](#53-step-3-area-changes)
 
-    [5.4 Step 4: Transition Potential Modeling](#54-step-4-transition-potential-modeling)
+&emsp;[5.4 Step 4: Transition Potential Modeling](#54-step-4-transition-potential-modeling)
 
-    [5.5 Step 5: Cellular Automata Simulation](#55-step-5-cellular-automata-simulation)
+&emsp;[5.5 Step 5: Cellular Automata Simulation](#55-step-5-cellular-automata-simulation)
 
-    [5.6 Step 6: Validation](#56-step-6-validation)
+&emsp;[5.6 Step 6: Validation](#56-step-6-validation)
 
-    [5.7 Step 7: Prediction](#57-step-7-prediction)
+&emsp;[5.7 Step 7: Prediction](#57-step-7-prediction)
 
 
 ## 1. QGIS Installation
