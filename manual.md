@@ -1,6 +1,29 @@
 
 # Manual on Prediction of Future Land Cover Changes using QGIS MOLUSCE Plugin**
 
+## Topic covered
+
+[1. Convolution Neural Network (CNN)](#1-convolution-neural-network-cnn)
+
+[2. Deep learning dataset preparation](#2-deep-learning-dataset-preparation)
+
+[3. Land Use Land Cover Classification](#3-land-use-land-cover-classification)
+
+[4. Swimming pool and car detection (object detection)](#4-swimming-pool-and-car-detection-object-detection)
+
+[5. Building detection (image segmentation)](#5-building-detection-image-segmentation)
+
+[6. Land Use Land Cover Mapping (multi-class image segmentation)](#6-land-use-land-cover-mapping-multi-class-image-segmentation)
+
+[7. Landslide detection using SAR and Optical dataset](#7-landslide-detection-using-sar-and-optical-dataset)
+
+[8. End-to-end Deep Learning and Google Earth Engine](#8-end-to-end-deep-learning-and-google-earth-engine)
+
+[9. Flood mapping using Attention UNet](#9-flood-mapping-using-attention-unet)
+
+### 1. Convolution Neural Network (CNN)
+CNNs are a type of deep learning algorithm designed for processing visual data. They're adept at tasks like image recognition by using specialized layers to automatically and hierarchically learn patterns and features from images.
+
 
 ## 1. QGIS Installation
 
