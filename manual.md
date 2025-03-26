@@ -1,28 +1,21 @@
 
 # Manual on Prediction of Future Land Cover Changes using QGIS MOLUSCE Plugin**
 
-## Topic covered
-
-[1. Convolution Neural Network (CNN)](#1-convolution-neural-network-cnn)
-
-[2. Deep learning dataset preparation](#2-deep-learning-dataset-preparation)
-
-[3. Land Use Land Cover Classification](#3-land-use-land-cover-classification)
-
-[4. Swimming pool and car detection (object detection)](#4-swimming-pool-and-car-detection-object-detection)
-
-[5. Building detection (image segmentation)](#5-building-detection-image-segmentation)
-
-[6. Land Use Land Cover Mapping (multi-class image segmentation)](#6-land-use-land-cover-mapping-multi-class-image-segmentation)
-
-[7. Landslide detection using SAR and Optical dataset](#7-landslide-detection-using-sar-and-optical-dataset)
-
-[8. End-to-end Deep Learning and Google Earth Engine](#8-end-to-end-deep-learning-and-google-earth-engine)
-
-[9. Flood mapping using Attention UNet](#9-flood-mapping-using-attention-unet)
-
-### 1. Convolution Neural Network (CNN)
-CNNs are a type of deep learning algorithm designed for processing visual data. They're adept at tasks like image recognition by using specialized layers to automatically and hierarchically learn patterns and features from images.
+## Table of Contents
+[1. QGIS Installation](#1-qgis-nstallation)
+[2. MOLUSCE Plugin Installation](#2-molusce-plugin-installation)
+[3. Study Area Selection](#3-study-area-selection)
+[4. Dataset Preparation](#4-dataset-preparation)
+[4.1 Land Cover Dataset](#.1-land-cover-dataset)
+[4.2 Driving Factors](#4.2-driving-factors)
+[5. Steps in QGIS MOLUSCE Plugin](#5.-steps-in-qgis-molusce-plugin)
+[5.1 Step 1: Inputs](#5.1-step-1-inputs)
+[5.2 Step 2: Evaluating Correlation](#5.2-step-2:-Evaluating-Correlation)
+[5.3 Step 3: Area Changes](#5.3-step-3:-area-changes)
+[5.4 Step 4: Transition Potential Modeling](#5.4-step-4:-transition-potential-modeling)
+[5.5 Step 5: Cellular Automata Simulation](#5.5-step-5:-cellular-automata-simulation)
+[5.6 Step 6: Validation](#5.6-step-6:-validation)
+[5.7 Step 7: Prediction](#5.7-step-7:-prediction)
 
 
 ## 1. QGIS Installation
