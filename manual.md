@@ -18,17 +18,17 @@
 
 [5.1 Step 1: Inputs](#5.1-step-1-inputs)
 
-[5.2 Step 2: Evaluating Correlation](#5.2-step-2:-Evaluating-Correlation)
+[5.2 Step 2: Evaluating Correlation](#5.2-step-2-Evaluating-Correlation)
 
-[5.3 Step 3: Area Changes](#5.3-step-3:-area-changes)
+[5.3 Step 3: Area Changes](#5.3-step-3-area-changes)
 
-[5.4 Step 4: Transition Potential Modeling](#5.4-step-4:-transition-potential-modeling)
+[5.4 Step 4: Transition Potential Modeling](#5.4-step-4-transition-potential-modeling)
 
-[5.5 Step 5: Cellular Automata Simulation](#5.5-step-5:-cellular-automata-simulation)
+[5.5 Step 5: Cellular Automata Simulation](#5.5-step-5-cellular-automata-simulation)
 
-[5.6 Step 6: Validation](#5.6-step-6:-validation)
+[5.6 Step 6: Validation](#5.6-step-6-validation)
 
-[5.7 Step 7: Prediction](#5.7-step-7:-prediction)
+[5.7 Step 7: Prediction](#5.7-step-7-prediction)
 
 
 ## 1. QGIS Installation
