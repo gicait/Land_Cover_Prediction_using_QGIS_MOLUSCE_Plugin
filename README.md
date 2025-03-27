@@ -9,4 +9,8 @@
 
 ## Prepared By
 
-Geoinformatics Center, Asian Institute of Technology, Thailand
+[Geoinformatics Center](https://ait.ac.th/centre/geoinformatics-center/), Asian Institute of Technology, Thailand
+
+## Supported by
+
+[Food and Agriculture Organization of the United Nations](https://www.fao.org/home/en)
