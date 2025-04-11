@@ -33,7 +33,7 @@
 
 ## 1. QGIS Installation
 
-Download QGIS setup file for windows from this website. The MOLUSCE plugin is
+Download the QGIS setup file for Windows from this website. The MOLUSCE plugin is
     supported only in QGIS version 2. Thus, QGIS version 2.18.0 is recommended.
   
   <img width="408" alt="image" src="https://github.com/user-attachments/assets/3cc2c7ff-0e69-4d24-bb1d-9482a9f61b05" />
@@ -42,39 +42,39 @@ Download QGIS setup file for windows from this website. The MOLUSCE plugin is
 
 ## 2. MOLUSCE Plugin Installation
 
-Open QGIS application and create new empty project. In the menu bar, click the
-    **_Plugins_** tab and click on **_Manage and Install Plugins_** option to open **_Plugins_** window as shown in Figure below.
+Open the QGIS application and create a new empty project. In the menu bar, click the
+    **_Plugins_** tab and click on the **_Manage and Install Plugins_** option to open the **_Plugins_** window, as shown in Figure below.
   
   <img width="415" alt="image" src="https://github.com/user-attachments/assets/e0e12430-4ae6-49ac-9fc9-1ebfca4cb9fa" />
 
-Search plugin by writing MOLUSCE keyword in search bar. Then, select MOLUSCE
-    and click **_Install plugin_** button to install the plugin.
+Search the plugin by writing the MOLUSCE keyword in the search bar. Then, select MOLUSCE
+    and click the **_Install plugin_** button to install the plugin.
 
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/093074c3-7cae-4aff-a9c8-7c209951c0be" />
 
-After the successful installation of plugin, you would be able to see the **_MOLUSCE_** option listed in the Raster menu.
+After the successful installation of the plugin, you will be able to see the **_MOLUSCE_** option listed in the Raster menu.
 
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/b181315d-eab4-45d1-9914-5880bbdc5695" />
 
 ## 3. Study Area Selection
-a. First of all, select the area where you would like to carry out case study. The extent
-of study area could be at national, regional, municipal, ward or any spatial unit
+a. First, select the area where you would like to conduct a case study. The extent
+of the study area could be at national, regional, municipal, ward or any spatial unit, 
 depending upon requirements.
 
-b. In this case study, Ben Cat district of Vietnam was chosen. The district level
-administrative layer in shapefile format was downloaded from OpenDevelopment
+b. In this case study, the Ben Cat district of Vietnam was chosen. The district-level
+administrative layer in shapefile format was downloaded from the OpenDevelopment
 Mekong data portal (link).
 
-c. Layer was loaded in QGIS and only the BenCat district was exported.
+c. The layer was loaded in QGIS and only the BenCat district was exported.
 
-d. As projected coordinate system is preferred, it is essential to know to the UTM
+d. As a projected coordinate system is preferred, it is essential to know the UTM
 zone of the selected study area. To find the UTM zone, use the link1 or link2.
 
 e. The Ben Cat district lies in WGS UTM zone 48N (EPSG: 32648). Hence, the layer
-was projected using Reproject Layer tool.
+was projected using the Reproject Layer tool.
 
 - Find the UTM zone using this link1 or link
-- Find and open the “Reproject Layer” tool from processing toolbox
+- Find and open the “Reproject Layer” tool from the processing toolbox
   
   <img width="225" alt="image" src="https://github.com/user-attachments/assets/8a1cc659-5cb7-4ed2-94f9-0ec638d1c8c6" />
 
@@ -92,37 +92,37 @@ was projected using Reproject Layer tool.
 ### 4.1 Land Cover Dataset
 
 a. First of all, select the years you need/want to map the land cover. If you want to
-prepare land cover map from scratch, start by collecting high-resolution satellite
+prepare a land cover map from scratch, start by collecting high-resolution satellite
 or aerial imagery and ground truth data. Preprocess the data by correcting for
-radiometric and geometric distortions and remove clouds if necessary. Annotate
+radiometric and geometric distortions and removing clouds if necessary. Annotate
 the imagery by defining land cover classes and either manually digitizing or using
 semi-automatic methods with machine learning tools. Validate the dataset
 through comparison with ground truth and accuracy assessments, then refine as
 needed.
-Most of the countries or researchers have mapped the land cover in dicerent
-levels which are publicly available. You can also find global land cover map
-datasets in dicerent sources. Find the datasets and download the dataset and
-analyze its quality and reliability for the selected study area. While selecting the
+Most countries or researchers have mapped the land cover at different
+levels that are publicly available. You can also find global land cover map
+datasets in dicerent sources. Find the datasets, download the dataset, and
+analyze their quality and reliability for the selected study area. While selecting the
 years, there should be at least three consecutive years for land cover prediction
-and should be of equal interval.
+and should be of equal intervals.
 
-b. For the Ben Cat district case study, data were downloaded from Global Land
+b. For the Ben Cat district case study, data were downloaded from the Global Land
 Analysis and Discovery website (link). This dataset can be found in 10*10 degree
 tiles and has a spatial resolution of 0.00025° per pixel (~30 meters at the equator).
-The annual land cover and land use maps of years 2000, 2005, 2010, 2015 and
+The annual land cover and land use maps for 2000, 2005, 2010, 2015, and
 2020 can be found.
 
-- First select the grid, where the area of interest falls. Since Ben Cat district lies in 20N 100E grid, the grid was selected.
+- First, select the grid, where the area of interest falls. Since Ben Cat district lies in the 20N 100E grid, the grid was selected.
 - After the grid selection, the data download links will be listed below.
-- Click the links to download the data for respective years.
+- Click the links to download the data for the respective years.
   
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/928f8325-1089-4f84-8ca4-04f460f52b89" />
     
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/e42b2b00-cf37-486e-bf1d-ae9f28b18c31" />
 
 
-c. Import downloaded data into QGIS, you will see the gradient legend in layer panel.
-Refer to this [legend](https://storage.googleapis.com/earthenginepartners-hansen/GLCLU2000-2020/legend.xlsx) on which land cover mapping is based on.
+c. Import downloaded data into QGIS to see the gradient legend in the layer panel.
+Refer to this [legend](https://storage.googleapis.com/earthenginepartners-hansen/GLCLU2000-2020/legend.xlsx) on which land cover mapping is based.
 Since we are not working on these all these classes, reclassification is required.
 In this case study, land cover classes were reclassified as follows:
 | Pixel Value Range     | New Pixel Value | Land Cover Class |
@@ -134,22 +134,22 @@ In this case study, land cover classes were reclassified as follows:
 
 
 Since snow/ice and ocean land cover are not in the study area, they are not
-mentioned in above reclassification table.
+mentioned in the above reclassification table.
 
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/b0e7925f-c5e0-42ea-92ec-844d1cf75560" />
 
 
 d. First clip the tentative study area using Clipper tool available in extraction option
-of Raster menu.
+of the Raster menu.
 
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/6328c35f-39bc-4e9c-b2e4-ccede515ee51" />
 
 
-e. For the reclassification in QGIS, open **_Reclassify values (simple)_** tool.
+e. For the reclassification in QGIS, open the **_Reclassify values (simple)_** tool.
 
-- Select the layer you want to reclassify as grid
-- Set the replace condition
-- Define lookup table as shown in figure below
+- Select the layer you want to reclassify as a grid
+- Set the replacement condition
+- Define the lookup table as shown in Figure below
 - Run the reclassification tool.
   
 <img width="350" alt="image" src="https://github.com/user-attachments/assets/f4e567a5-60a8-491e-a069-6d2604bf12a0" />
@@ -157,7 +157,7 @@ e. For the reclassification in QGIS, open **_Reclassify values (simple)_** tool.
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/23235044-b83c-4855-a7ec-c56f670fbed6" />
 
 
-f. To work in projected coordinate system, open the Warp (reproject) tool to project
+f. To work in a projected coordinate system, open the Warp (reproject) tool to project
 the dataset
 
 - Find the UTM zone using this [link1](https://www.apsalin.com/utm-zone-finder/) or [link2](https://www.apsalin.com/utm-zone-finder/).
@@ -167,14 +167,14 @@ the dataset
 - Select the layer you want to reproject as an input layer.
 - Select the destination CRS as required (WGS UTM zone 48N in this case
     study).
-- In this case study, the spatial resolution of dataset is 0.00025 degree.
-    1 degree= 111.11 km
-    0.00025 degree=0.00025111.11*1000 m
-    0.00025 degree=27.75m
-    Therefore, output resolution is set as 25m is this case study and “nearest
-    neighbourhood” is selected as resampling method.
-    You can also set output resolution as 30m or 27.75m but it should be same
-    when to prepare driving factors datasets as well.
+- In this case study, the spatial resolution of the dataset is 0.00025 degrees.
+    1 degrees= 111.11 km
+    0.00025 degrees=0.00025111.11*1000 m
+    0.00025 degrees=27.75m
+    Therefore, the output resolution is set as 25m in this case study, and “nearest
+    neighbourhood” is selected as the resampling method.
+    You can also set output resolution as 30m or 27.75m, but it should also be same
+    when preparing driving factors datasets.
 - Define the output file path in Reprojected
 
 - Run the tool
@@ -192,11 +192,11 @@ g. Finally, clip the raster layer within the study area administrative boundary.
 - Select the reprojected land cover layer as an input layer
 - Select study area admin as a mask layer layer (Ben Cat District boundary data
     in this case study)
-- Select the options crop the extent of the target dataset to the extent of the
-    cutline and keep resolution of output raster.
+- Select the options, crop the extent of the target dataset to the extent of the
+    cutline, and keep the resolution of the output raster.
 - Define the output file path in Clipped (mask)
 - Run the tool
-- The final properties of land cover map of this case study are as follows:
+- The final properties of the land cover map of this case study are as follows:
     No of classes: 4
     Pixel size:25, - 25
     Columns:
@@ -209,7 +209,7 @@ h. Repeat the process to prepare the land cover datasets for other selected year
 
 MOLUSCE Plugin only accepts the raster format datasets.
 
-In this case study, population density, slope, hillshade, digital elevation model, distance from the road, distance from the rivers were considered as the driving factors based on the data availability. The preparation procedure involved in preparation of each dataset to feed into the MOLUSCE plugin is described below in detail.
+In this case study, population density, slope, hillshade, digital elevation model, distance from the road, and distance from the rivers were considered as the driving factors based on the data availability. The preparation procedure involved in the preparation of each dataset to feed into the MOLUSCE plugin is described below in detail.
 
 a) Digital Elevation Model and Hillshade
 - Clip the tentative study area using **_Clipper_** tool available in extraction option
@@ -221,10 +221,10 @@ a) Digital Elevation Model and Hillshade
     (g)]
 
 b) Population density
-- Clip the tentative study area using **_Clipper_** tool available in extraction option
-of Raster menu [refer to 4.1 (d)]
-- Reproject data into the selected projected coordinate system and set
-preferred spatial resolution which should be same as the land cover dataset.
+- Clip the tentative study area using the **_Clipper_** tool available in the extraction option
+of the Raster menu [refer to 4.1 (d)]
+- Reproject data into the selected projected coordinate system and set the 
+preferred spatial resolution, which should be the same as the land cover dataset.
 Select the cubic convolution as a resampling method. [refer to 4.1 (f)]
 - Finally, clip the raster layer within the study area administrative boundary [refer
 to 4.1 (g)]
@@ -232,11 +232,11 @@ to 4.1 (g)]
 c) Slope
 Slope data is derived from the digital elevation dataset. Use the projected digital
 elevation data.
-- Open GDAL based slope analysis tool.
+- Open GDAL-based slope analysis tool.
   
     <img width="500" alt="image" src="https://github.com/user-attachments/assets/ee9fe100-4b96-4846-b6a3-af7f6fdf8117" />
 
-- Check the Slope expressed as percent (instead of degrees) option
+- Check the xlope expressed as percent (instead of degrees) option
 
   <img width="600" alt="image" src="https://github.com/user-attachments/assets/7765f30d-91bd-460f-b0df-672f8bc7af43" />
 - Run the tool
@@ -244,11 +244,11 @@ elevation data.
     to 4.1 (g)]
   
 d) Distance from the Road and Distance from the River
-Road network and river network datasets are vector datasets which are mostly
+Road and river network datasets are vector datasets mostly
 found in .shp or .geojson format.
 
-- Clip the tentative study area using **Clip vectors by extent** geoprocessing tool.
-Click the Select extent on canvas option and draw tentative extent.
+- Clip the tentative study area using the **Clip vectors by extent** geoprocessing tool.
+Click the Select extent on the "canvas" option and draw the tentative extent.
 
     <img width="319" alt="image" src="https://github.com/user-attachments/assets/a315e00f-2bd1-4a13-b0c3-2536b9e3e758" />
     <img width="341" alt="image" src="https://github.com/user-attachments/assets/3488c574-4e5a-4d02-8997-316dedc834a2" />
@@ -256,7 +256,7 @@ Click the Select extent on canvas option and draw tentative extent.
 
 - Reproject data into the selected projected coordinate system [Refer 3 (e)].
 
-- Open the attribute table window, toggle on the editing mode, add new field (Eg:‘id’ in this case) and populate the field with value 0.
+- Open the attribute table window, toggle on the editing mode, add a new field (Eg:‘id’ in this case), and populate the field with value 0.
 
     <img width="600" alt="image" src="https://github.com/user-attachments/assets/7816c4ea-cba5-456a-88d4-74991ab68135" />
 
@@ -264,11 +264,11 @@ Click the Select extent on canvas option and draw tentative extent.
 
     <img width="500" alt="image" src="https://github.com/user-attachments/assets/d565409d-8a67-4c18-849a-422ceef6e60b" />
 
-- Select the newly created field (‘id’ in this case) as an **Attribute field**. Set output resolution as per required (25*25 in this case). Define **Nodata value** in advanced parameters as -9999. Run the tool and save the rasterized dataset.
+- Select the newly created field (‘id’ in this case) as an **Attribute field**. Set output resolution as required (25*25 in this case). Define the **Nodata value** in advanced parameters as -9999. Run the tool and save the rasterized dataset.
 
     <img width="700" alt="image" src="https://github.com/user-attachments/assets/0e57e798-3815-411e-95e2-b934ec53e8c5" />
 
-- Use raster tool named “ Proximity raster” to generate the distance from the road/river layer.
+- Use “ Proximity raster” tool to generate the distance from the road/river layer.
 
     <img width="450" alt="image" src="https://github.com/user-attachments/assets/47dd06b8-262d-4a6f-a877-e4e93cbbc71c" />
 
@@ -284,25 +284,25 @@ Click the Select extent on canvas option and draw tentative extent.
 
 ### 5.1 Step 1: Inputs
 
-All the layers which have been added in QGIS project are listed in left panel in Inputs tab.
+All the layers that have been added to the QGIS project are listed in the left panel in the Inputs tab.
 
-- Firstly, select the layer you want to set as an initial data and then click **_Initial>>_** button to set the initial data. The year box is filled automatically based on layer’s name you have defined for selected layer, if not you can define/edit layer name as well as year. Similarly, select and set the final layer as well. In this case study, land cover of year 2000 and 2010 are set as initial and final layer respectively.
+- Firstly, select the layer you want to set as initial data and then click the **_Initial>>_** button to set the initial data. The year box is filled automatically based on the name of the layer you have defined for the selected layer; if not, you can define/edit the layer name as well as the year. Similarly, select and set the final layer as well. In this case study, the year 2000 and 2010 land cover are set as the initial and final layer, respectively.
   
-- In a similar way, select the layers you want to define as Spatial variables and set in spatial variables window by clicking **_Add>>_** button.
+- In a similar way, select the layers you want to define as Spatial variables and set in spatial variables window by clicking the **_Add>>_** button.
 
-- Click on **_Check geometry_** button to check whether the inputs dataset fulfill all the requirement that includes same coordinate system, same resolution and same extent. If all the requirements are fulfilled, the prompt window is displayed with message “Geometries of raster’s are matched” and all other remaining tabs will be activated.
+- Click on the **_Check geometry_** button to check whether the input dataset fulfills all the requirements including same coordinate system, resolution, and extent. If all the requirements are fulfilled, the prompt window is displayed with the message “Geometries of raster’s are matched”, and all other remaining tabs will be activated.
 
 - Click **_ok_** to close the prompt window.
 
-- If the geometries of raster’s do not match, error message will be displayed. Then, correct the dataset and try again.
+- If the geometries of the raster’s do not match, an error message will be displayed. Then, correct the dataset and try again.
 
     <img width="550" alt="image" src="https://github.com/user-attachments/assets/7b858afc-143c-40ad-be07-09bb20ba14cd" />
 
 ### 5.2 Step 2: Evaluating Correlation
 
-This tab aims for evaluating the correlation between spatial variables that are defined in
+This tab aims to evaluate the correlation between spatial variables that are defined in
 the previous input tab. The three methods that are available for calculating correlations
-among spatial variables are Pearson’s correlation, Crammer’s correlation and Joint
+among spatial variables are Pearson’s correlation, Crammer’s correlation, and Joint
 Information Uncertainty**.**
 
 
@@ -322,7 +322,7 @@ diciculty in training the models.
 
 ### 5.3 Step 3: Area Changes
 
-- Click on **_Update tables_** button to compute land use/cover area changes and transition probabilities table.The land use/cover area units can be expressed in raster unit, square kilometer (sq. km) and hectare (ha) as shown in below Figure.
+- Click the **_Update tables_** button to compute land use/cover area changes and the transition probabilities table. The Figure below shows that the land use/cover area units can be expressed in raster units, square kilometers (sq. km), and hectares (ha).
 
 - Generate and save the land use/cover change map by clicking the **Create_changes map_** button.
 
@@ -331,12 +331,12 @@ diciculty in training the models.
 
 ### 5.4 Step 4: Transition Potential Modeling
 
-After successful completion of the previous steps, transition potential modelling is
+After the successful completion of the previous steps, transition potential modelling is
 carried out. The modeling is carried out by defining samples, modeling method and
-parameters. Firstly, the available three sampling mode options are All, Random and
-Stratified and selection of sampling mode depends on the class’s distribution of input
-dataset. In this case study, stratified sampling method is selected since precise class
-representation is crucial and input dataset classes distribution are also not balanced.
+parameters. Firstly, the three available sampling mode options are "All", "Random", and
+"Stratified" and the selection of sampling mode depends on the class’s distribution of the input
+dataset. The stratified sampling method is selected in this case study since precise class
+representation is crucial and input dataset class distribution is also not balanced.
 
 Secondly, there are four methods that encompass artificial neural networks (ANN),
 weights of evidence (WoE), logistic regression (LR), and multi-criteria evaluation for
@@ -344,62 +344,62 @@ constructing potential transition maps. Each method has its own advantages and
 disadvantages. In this case study, the ANN method has been selected due to its
 capability to handle complex (non-linear) factors.
 
-Thirdly, other miscellaneous parameters such as number of samples, neighborhood,
+Thirdly, other miscellaneous parameters such as the number of samples, neighborhood,
 learning rate, maximum iterations, hidden layers, and momentum are input.
 
-After giving all the inputs, there is a button ‘ **Train neural network** ’ which needs to be clicked to start the modelling process. There is also an option to ‘ **Stop’** button which is used to terminate the model.
+After giving all the inputs, there is a button, ‘ **Train neural network**’ which needs to be clicked to start the modelling process. There is also an option to use the‘ **Stop’** button to terminate the model.
 
-After modelling is completed, overall accuracy values appeared on the interface
-determines the quality of the modelling. In most cases, desirable overall accuracy might
-not be obtained in the first step. Hence, other miscellaneous parameters need to be
-adjusted until the desirable overall accuracy is obtained based on the hit and trial
+After modelling is completed, overall accuracy values on the interface
+determine the modelling quality. In most cases, desirable overall accuracy might
+not be obtained in the first step. Hence, other miscellaneous parameters must be
+adjusted until the desired overall accuracy is obtained based on the hit-and-trial
 method.
 
-In this very crucial step, neural network learning curve (training vs validation datasets)
-need to be reviewed and diagnosed properly to prevent from the learning problems such
-as an underfit or overfit model, and unrepresentative training or validation datasets.
+In this very crucial step, the neural network learning curve (training vs. validation datasets)
+needs to be reviewed and diagnosed properly to prevent learning problems such
+as an underfit or overfit model and unrepresentative training or validation datasets.
 [Reference: https://machinelearningmastery.com/learning-curves-for-diagnosing-
 machine-learning-model-performance/ ]
 
 The input values used in this case study are shown in the Figure below. The interface also
-has dicerent functions as shown below.
+has dicerent functions, as shown below.
 
 
-After successful completion of the training the model **click** on the save and save the
+After successfully completing the model training, click on the **save** buttton and save the
 graph into the designated folder.
 
-In this case sudy, decrease in both training and validation loss to a point of stability with a minimal gap between the two final loss values can be witnessed in the learning curve which represents the well fitted model for this case study.
+In this case study, a decrease in both training and validation loss to the point of stability with a minimal gap between the two final loss values can be witnessed in the learning curve, which represents the well-fitted model for this case study.
 
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/83065fbf-361d-4836-83c5-35042d20667a" />
 
 ### 5.5 Step 5: Cellular Automata Simulation
 
-This is the second last step. The main task that needs to be carried out is to save the file path for prefix of transition potential maps, certainty function, and simulation results as shown in below Figure. In step 1, the year dicerence between initial (2000) and final (2010) land cover map is 10. Thus, Number of simulation iterations defined as 1 in this step will simulates the land cover map of year 2020.
+This is the second last step. The main task that needs to be carried out is to save the file path for the prefix of transition potential maps, certainty function, and simulation results, as shown in the Figure below. In step 1, the year dicerence between initial (2000) and final (2010) land cover map is 10. Thus, the number of simulation iterations defined as 1 in this step will simulate the land cover map for the year 2020.
 
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/c3692784-cbb4-445d-9735-a217d1442336" />
 
 
 ### 5.6 Step 6: Validation
 
-This is the last step of the MOLUSCE. As shown in the Figure below there are many
-functions on validation steps.
+This is the last step of the MOLUSCE. As shown in the Figure below, there are many
+functions in the validation steps.
 
-- Firstly, reference map needs to be imported. To do this, click on **Browse** and select the reference land cover which will act as validation data against the simulated map. To
-import the simulated map, adopt similar process using the browsing tool.
+- Firstly, a reference map needs to be imported. To do this, click on **Browse** and select the reference land cover, which will act as validation data against the simulated map. To
+import the simulated map, adopt a similar process using the browsing tool.
 
 - Ensure that you have checked the validation map and check persistent classes.
 
 - The number of validation iterations should be imported based on the results obtained on
-the % of correctness, kappa (overall), kappa (histo), and kappa (loc). If these values are satisfying (i.e. >0.6) the simulated map can be accepted else hit and trials method should be adopted by changing the parameters used in the transition potential modelling step.
+the % of correctness, kappa (overall), kappa (histo), and kappa (loc). If these values are satisfying (i.e., >0.6), the simulated map can be accepted; otherwise the hit-and-trials method should be adopted by changing the parameters used in the transition potential modelling step.
     <img width="550" alt="image" src="https://github.com/user-attachments/assets/f60ec979-e28e-4b94-a661-369c2b695e53" />
 
 
 ### 5.7 Step 7: Prediction
-Once acceptable kappa statistics are obtained in previous step, inputs need to be given to predict the future land cover map. As shown in the figure all the land cover maps and driving are given as input. The below figure shows the input for this case study. Land cover map of year 2010 and 2020 are set as initial and final respectively to predict the land cover for year 2030 and so on.
+Once acceptable kappa statistics are obtained in the previous step, inputs need to be given to predict the future land cover map. As shown in the Figure, all the land cover maps and driving are given as input. The below figure shows the input for this case study. The land cover maps for 2010 and 2020 are set as initial and final, respectively, to predict the land cover for 2030 and so on.
   
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/a0a9f19c-86b5-4d51-a285-8f203a1354f1" />
 
-Once the inputs are defined, proceed directly to step 5 (Cellular Automata Simulation). The number of simulation iterations must be entered in a specific way. In this case study, with an initial year of 2010 and a final year of 2020, setting the number of simulation iterations to 1 will predict outcomes for 2030, 2 will predict for 2040, 3 for 2050, and so forth. Therefore, each iteration represents one interval between the initial and final years.
+Once the inputs are defined, proceed directly to step 5 (Cellular Automata Simulation). The number of simulation iterations must be entered in a specific way. In this case study, with an initial year of 2010 and a final year of 2020, setting the number of simulation iterations to 1 will predict outcomes for 2030, 2 will predict 2040, 3 for 2050, and so forth. Therefore, each iteration represents one interval between the initial and final years.
 
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/ffafc086-f0a3-4c03-9ced-6dc68f53065f" />
 
